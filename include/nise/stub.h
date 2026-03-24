@@ -1132,4 +1132,4 @@ float GetCurrentFPS();
  *                    (e.g. "VirtualAssets", "MyMod", "HookManager").
  * @param message     Null-terminated UTF-8 message string to emit.
  */
-void ClientLog(const char* threadName, const char* tag, const char* message);
+extern "C" void ClientLog(const char* threadName, const char* tag, const char* message);
